@@ -1,0 +1,31 @@
+﻿body {
+    background-color: black
+}
+
+h1 {
+    color: #ffff99;
+    font-family: 'Lucida Sans';
+    font-size: 300%;
+    text-align: center
+}
+
+h2 {
+    font-size: 150%;
+    color: #ffff99;
+    font-size: 200%;
+    font-family: 'Lucida Sans';
+    text-align: center
+}
+
+p {
+    color: #ffff99;
+    font-size: 150%;
+    font-family: 'Lucida Sans';
+    text-align: center
+}
+address {
+    color: #ffff99;
+    font-size: 100%;
+    font-family: 'Lucida Sans';
+    text-align: left;
+}
