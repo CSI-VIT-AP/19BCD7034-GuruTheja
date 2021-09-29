@@ -1,6 +1,31 @@
 ﻿body {
     background-image:url("image/back.jpg")
 }
+.li1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.li1 li{
+    float: left;
+}
+
+    .li1 li a {
+        font-family: 'Lucida Sans';
+        font-size: 200;
+        display: block;
+        color: #ffff99;
+        text-align: center;
+        padding: 25px;
+        text-decoration: none;
+    }
+
+        .li1 li a:hover {
+            background-color: #111111;
+        }
 #pic {
     width: 400px;
     height: 400px;
@@ -12,7 +37,6 @@ h1 {
     font-size: 300%;
     text-align: center
 }
-
 h2 {
     font-size: 150%;
     color: #c0ffea;
@@ -20,12 +44,23 @@ h2 {
     font-family: 'Lucida Sans';
     text-align: center
 }
-
 p {
     color: #c0ffea;
     font-size: 150%;
     font-family: 'Lucida Sans';
     text-align: center
+}
+h3{
+    font-size: 150%;
+    color: #ffff99;
+    font-family: 'Lucida Sans';
+    text-align: left
+}
+.skills li {
+    font-size: 150%;
+    color: #c0ffea;
+    font-family: 'Lucida Sans';
+    text-align: left
 }
 p {
     color: #c8ffec;
@@ -34,8 +69,21 @@ p {
     text-align: center
 }
 table, th, td {
-    border: 1px solid black;
-    ali
+    border: 1px black;
+    border-collapse: collapse;
+}
+th, td {
+    border-radius: 10px;
+    border-color: #ffff99;
+}
+tr:nth-child(odd) {
+    background-color: #ffff99;
+}
+tr:nth-child(even) {
+    background-color: #c0ffea;
+}
+tr:hover {
+    background-color: #ff4d94;
 }
 a:link{
     color:plum;
