@@ -1,0 +1,58 @@
+﻿body {
+    background-image:url("image/back.jpg")
+}
+#pic {
+    width: 400px;
+    height: 400px;
+    object-position:center top;
+}  
+h1 {
+    color: #ffff99;
+    font-family: 'Lucida Sans';
+    font-size: 300%;
+    text-align: center
+}
+
+h2 {
+    font-size: 150%;
+    color: #c0ffea;
+    font-size: 200%;
+    font-family: 'Lucida Sans';
+    text-align: center
+}
+
+p {
+    color: #c0ffea;
+    font-size: 150%;
+    font-family: 'Lucida Sans';
+    text-align: center
+}
+p {
+    color: #c8ffec;
+    font-size: 150%;
+    font-family: 'Lucida Sans';
+    text-align: center
+}
+table, th, td {
+    border: 1px solid black;
+    ali
+}
+a:link{
+    color:plum;
+    background-color:transparent;
+    text-decoration:underline;
+}
+address {
+    color: #ffff99;
+    font-size: 100%;
+    font-family: 'Lucida Sans';
+    text-align: right;
+}
+#fb {
+    width:50px;
+    height:50px;
+}
+#github {
+    width: 50px;
+    height: 50px;
+}
