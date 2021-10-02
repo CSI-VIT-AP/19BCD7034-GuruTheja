@@ -1,0 +1,120 @@
+﻿body {
+    background-image:url("image/back.jpg")    
+}
+.li1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+.li1 li{
+    float: left;
+}
+
+    .li1 li a {
+        font-family: 'Lucida Sans';
+        font-size: 200;
+        display: block;
+        color: #ffff99;
+        text-align: center;
+        padding: 25px;
+        text-decoration: none;
+    }
+
+        .li1 li a:hover {
+            background-color: #111111;
+        }
+#button{
+    
+}
+#pic {
+    width: 400px;
+    height: 400px;
+    object-position:center;
+}  
+#hello {
+    color: #ffff99;
+    font-family: 'Lucida Sans';
+    font-size: 300%;
+    text-align: center
+}
+#about {
+    color: #ffff99;
+    font-family: 'Lucida Sans';
+    font-size: 200%;
+    text-align: left
+}
+.about {
+    color: #c0ffea;
+    font-size: 150%;
+    font-family: 'Lucida Sans';
+    text-align: left
+}
+h3{
+    font-size: 150%;
+    color: #ffff99;
+    font-family: 'Lucida Sans';
+    text-align: left
+}
+.skills li {
+    font-size: 150%;
+    color: #c0ffea;
+    font-family: 'Lucida Sans';
+    text-align: left
+}
+#caption{
+    color: #ffff99;
+    font-size: 150%;
+    font-family:'Lucida sans';
+    text-align: center;
+}
+table, th, td {
+    border: 1px black;
+    border-collapse: collapse;
+}
+th, td {
+    border-radius: 10px;
+    border-color: #ffff99;
+}
+tr:nth-child(odd) {
+    background-color: #ffff99;
+}
+tr:nth-child(even) {
+    background-color: #c0ffea;
+}
+tr:hover {
+    background-color: #ff4d94;
+}
+#contact {
+    color: #ffff99;
+    font-size: 100%;
+    font-family: 'Lucida Sans';
+    text-align: right;
+}
+a:link{
+    color:plum;
+    background-color:transparent;
+    text-decoration:underline;
+}
+
+#fb {
+    width:50px;
+    height:50px;
+}
+#github {
+    width: 50px;
+    height: 50px;
+}
+#reference{
+    color: #c8ffec;
+    font-size: 150%;
+    font-family: 'Lucida Sans';
+    text-align: center
+}
+#footer{
+    color: #ffff99;
+    font-size: 100%;
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
